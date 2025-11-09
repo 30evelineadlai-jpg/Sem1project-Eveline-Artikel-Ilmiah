@@ -6,10 +6,10 @@ footer {
   font-size: 14px;
   position: fixed;
   bottom: 0;
-  left: 0; /* 👈 ensures it starts from the left edge */
-  right: 0; /* 👈 ensures it ends at the right edge */
+  left: 0; 
+  right: 0; 
   width: 100%;
-  z-index: 1000; /* 👈 keeps it above other content */
+  z-index: 1000; 
 }
 
 body {
@@ -21,11 +21,11 @@ body {
 
 nav {
   background-color: #758ac7;
-  display: flex; /* put title and links in one row */
-  justify-content: space-between; /* space between title & links */
-  align-items: center; /* align vertically */
-  padding: 0 20px; /* some horizontal space */
-  height: 60px; /* consistent height */
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0 20px; 
+  height: 60px; 
 }
 
 .navbar {
@@ -66,7 +66,7 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   border-radius: 10px;
-  float: left; /* 👈 This moves it to the left */
+  float: left; 
   margin: 100px 30px 20px 20px;
 }
 
@@ -89,3 +89,4 @@ nav {
   background-color: rgb(210, 218, 244, 0.7);
   padding: 20px;
 }
+
