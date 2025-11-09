@@ -1,11 +1,9 @@
-/* ===== GENERAL PAGE STYLES ===== */
 body {
-  margin: 0; /* removes unwanted gaps around navbar/footer */
+  margin: 0; 
   font-family: "Times New Roman", Times, serif;
   background: #d2daf4;
 }
 
-/* ===== NAVBAR ===== */
 nav {
   background-color: #758ac7;
   display: flex;
@@ -13,7 +11,7 @@ nav {
   align-items: center;
   padding: 0 20px;
   height: 60px;
-  margin: 0; /* ensures it’s attached to top and sides */
+  margin: 0; 
 }
 
 .navbar {
@@ -47,11 +45,10 @@ nav {
   font-size: larger;
 }
 
-/* ===== SOURCE LIST BOX ===== */
 .source {
-  background-color: #fff2d7; /* blue box behind the list */
-  color: black; /* text color */
-  margin: 40px auto; /* centers box */
+  background-color: #fff2d7; 
+  color: black; 
+  margin: 40px auto; 
   width: 80%;
   padding: 20px 30px;
   border-radius: 10px;
@@ -66,7 +63,7 @@ nav {
 }
 
 .source a {
-  color: black; /* makes link white */
+  color: black; 
   text-decoration: none;
 }
 
@@ -81,7 +78,6 @@ nav {
   padding-bottom: 10px;
 }
 
-/* ===== FOOTER ===== */
 footer {
   background-color: #758ac7;
   color: white;
@@ -91,5 +87,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  margin: 0; /* attaches footer sides */
+  margin: 0; 
 }
+
