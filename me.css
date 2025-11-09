@@ -1,0 +1,91 @@
+footer {
+  background-color: #758ac7;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0; /* 👈 ensures it starts from the left edge */
+  right: 0; /* 👈 ensures it ends at the right edge */
+  width: 100%;
+  z-index: 1000; /* 👈 keeps it above other content */
+}
+
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background: url(article.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+nav {
+  background-color: #758ac7;
+  display: flex; /* put title and links in one row */
+  justify-content: space-between; /* space between title & links */
+  align-items: center; /* align vertically */
+  padding: 0 20px; /* some horizontal space */
+  height: 60px; /* consistent height */
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #364d94;
+}
+
+.nav-title {
+  color: white;
+  padding: 14px 20px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.img-frame {
+  width: 300px;
+  height: 200px;
+  border: 8px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  border-radius: 10px;
+  float: left; /* 👈 This moves it to the left */
+  margin: 100px 30px 20px 20px;
+}
+
+.img-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.text {
+  height: 200px;
+  border: 8px #fffff;
+  box-shadow: 0 0 10px #00000;
+  overflow: hidden;
+  border-radius: 10px;
+  float: center;
+  margin: 100px 30px 20px 20px;
+  font-size: 18px;
+  background-color: rgb(210, 218, 244, 0.7);
+  padding: 20px;
+}

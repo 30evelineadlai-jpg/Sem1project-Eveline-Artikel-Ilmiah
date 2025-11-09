@@ -1,0 +1,95 @@
+/* ===== GENERAL PAGE STYLES ===== */
+body {
+  margin: 0; /* removes unwanted gaps around navbar/footer */
+  font-family: "Times New Roman", Times, serif;
+  background: #d2daf4;
+}
+
+/* ===== NAVBAR ===== */
+nav {
+  background-color: #758ac7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  margin: 0; /* ensures it’s attached to top and sides */
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #364d94;
+}
+
+.nav-title {
+  color: white;
+  padding: 14px 20px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* ===== SOURCE LIST BOX ===== */
+.source {
+  background-color: #fff2d7; /* blue box behind the list */
+  color: black; /* text color */
+  margin: 40px auto; /* centers box */
+  width: 80%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 18.667px;
+}
+
+.source li {
+  list-style-type: disc;
+  color: black;
+  margin: 10px 0;
+}
+
+.source a {
+  color: black; /* makes link white */
+  text-decoration: none;
+}
+
+.source a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.source p {
+  font-weight: bold;
+  color: black;
+  padding-bottom: 10px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #758ac7;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0; /* attaches footer sides */
+}
